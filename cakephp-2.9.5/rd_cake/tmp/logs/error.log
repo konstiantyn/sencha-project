@@ -1,0 +1,402 @@
+2017-04-08 01:07:23 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /cake2/rd_cake/mesh_reports/submit_report.json?q=%2Fcake2%2Frd_cake%2Fwebroot%2Fmesh_reports%2Fsubmit_report.json
+Stack Trace:
+#0 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3667): Model->setSource('nodes')
+#5 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(834): Model->getDataSource()
+#6 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/MeshReportsController.php(1201): Model->__call('findByMac', Array)
+#7 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/MeshReportsController.php(33): MeshReportsController->_new_report()
+#8 [internal function]: MeshReportsController->submit_report()
+#9 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(MeshReportsController), Array)
+#10 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MeshReportsController), Object(CakeRequest))
+#12 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2017-04-28 04:07:43 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /cake2/rd_cake/ap_reports/submit_report.json?q=%2Fcake2%2Frd_cake%2Fwebroot%2Fap_reports%2Fsubmit_report.json
+Stack Trace:
+#0 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3667): Model->setSource('aps')
+#5 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(834): Model->getDataSource()
+#6 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/ApReportsController.php(592): Model->__call('findByMac', Array)
+#7 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/ApReportsController.php(21): ApReportsController->_new_report()
+#8 [internal function]: ApReportsController->submit_report()
+#9 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ApReportsController), Array)
+#10 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApReportsController), Object(CakeRequest))
+#12 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2017-04-28 04:07:43 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /cake2/rd_cake/ap_reports/submit_report.json?q=%2Fcake2%2Frd_cake%2Fwebroot%2Fap_reports%2Fsubmit_report.json
+Stack Trace:
+#0 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3667): Model->setSource('aps')
+#5 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(834): Model->getDataSource()
+#6 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/ApReportsController.php(592): Model->__call('findByMac', Array)
+#7 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/ApReportsController.php(21): ApReportsController->_new_report()
+#8 [internal function]: ApReportsController->submit_report()
+#9 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ApReportsController), Array)
+#10 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApReportsController), Object(CakeRequest))
+#12 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2017-06-20 18:19:05 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ProfileComponent.check_attribute_count' in 'order clause'
+Request URL: /cake2/rd_cake/profile_components/index.json?q=%2Fcake2%2Frd_cake%2Fwebroot%2Fprofile_components%2Findex.json&_dc=1497982747995&page=1&start=0&limit=100&sort=check_attribute_count&dir=ASC&token=dd1cb290-743e-40e5-9f2e-8c8522246c1a&sel_language=4_4
+Stack Trace:
+#0 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('SELECT `Profile...', Array)
+#2 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(1184): DboSource->fetchAll('SELECT `Profile...', Array)
+#4 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3038): DboSource->read(Object(ProfileComponent), Array)
+#5 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3010): Model->_readDataSource('all', Array)
+#6 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/ProfileComponentsController.php(329): Model->find('all', Array)
+#7 [internal function]: ProfileComponentsController->index()
+#8 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfileComponentsController), Array)
+#9 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ProfileComponentsController), Object(CakeRequest))
+#11 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-06-20 18:19:06 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ProfileComponent.check_attribute_count' in 'order clause'
+Request URL: /cake2/rd_cake/profile_components/index.json?q=%2Fcake2%2Frd_cake%2Fwebroot%2Fprofile_components%2Findex.json&_dc=1497982748831&page=1&start=0&limit=100&sort=check_attribute_count&dir=DESC&token=dd1cb290-743e-40e5-9f2e-8c8522246c1a&sel_language=4_4
+Stack Trace:
+#0 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('SELECT `Profile...', Array)
+#2 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(1184): DboSource->fetchAll('SELECT `Profile...', Array)
+#4 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3038): DboSource->read(Object(ProfileComponent), Array)
+#5 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3010): Model->_readDataSource('all', Array)
+#6 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/ProfileComponentsController.php(329): Model->find('all', Array)
+#7 [internal function]: ProfileComponentsController->index()
+#8 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfileComponentsController), Array)
+#9 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ProfileComponentsController), Object(CakeRequest))
+#11 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-06-20 18:19:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ProfileComponent.check_attribute_count' in 'order clause'
+Request URL: /cake2/rd_cake/profile_components/index.json?q=%2Fcake2%2Frd_cake%2Fwebroot%2Fprofile_components%2Findex.json&_dc=1497982751761&page=1&start=0&limit=100&sort=check_attribute_count&dir=DESC&token=dd1cb290-743e-40e5-9f2e-8c8522246c1a&sel_language=4_4
+Stack Trace:
+#0 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('SELECT `Profile...', Array)
+#2 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(1184): DboSource->fetchAll('SELECT `Profile...', Array)
+#4 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3038): DboSource->read(Object(ProfileComponent), Array)
+#5 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3010): Model->_readDataSource('all', Array)
+#6 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/ProfileComponentsController.php(329): Model->find('all', Array)
+#7 [internal function]: ProfileComponentsController->index()
+#8 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfileComponentsController), Array)
+#9 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ProfileComponentsController), Object(CakeRequest))
+#11 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-06-20 18:19:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ProfileComponent.check_attribute_count' in 'order clause'
+Request URL: /cake2/rd_cake/profile_components/index.json?q=%2Fcake2%2Frd_cake%2Fwebroot%2Fprofile_components%2Findex.json&_dc=1497982753722&page=1&start=0&limit=100&sort=check_attribute_count&dir=ASC&token=dd1cb290-743e-40e5-9f2e-8c8522246c1a&sel_language=4_4
+Stack Trace:
+#0 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('SELECT `Profile...', Array)
+#2 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(1184): DboSource->fetchAll('SELECT `Profile...', Array)
+#4 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3038): DboSource->read(Object(ProfileComponent), Array)
+#5 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3010): Model->_readDataSource('all', Array)
+#6 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/ProfileComponentsController.php(329): Model->find('all', Array)
+#7 [internal function]: ProfileComponentsController->index()
+#8 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfileComponentsController), Array)
+#9 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ProfileComponentsController), Object(CakeRequest))
+#11 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-06-20 18:50:08 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ProfileComponent.check_attribute_count' in 'order clause'
+Request URL: /cake2/rd_cake/profile_components/index.json?q=%2Fcake2%2Frd_cake%2Fwebroot%2Fprofile_components%2Findex.json&_dc=1497984611450&page=1&start=0&limit=100&sort=check_attribute_count&dir=ASC&token=dd1cb290-743e-40e5-9f2e-8c8522246c1a&sel_language=4_4
+Stack Trace:
+#0 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('SELECT `Profile...', Array)
+#2 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(1184): DboSource->fetchAll('SELECT `Profile...', Array)
+#4 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3038): DboSource->read(Object(ProfileComponent), Array)
+#5 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3010): Model->_readDataSource('all', Array)
+#6 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/ProfileComponentsController.php(329): Model->find('all', Array)
+#7 [internal function]: ProfileComponentsController->index()
+#8 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfileComponentsController), Array)
+#9 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ProfileComponentsController), Object(CakeRequest))
+#11 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-06-20 18:50:19 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ProfileComponent.check_attribute_count' in 'order clause'
+Request URL: /cake2/rd_cake/profile_components/index.json?q=%2Fcake2%2Frd_cake%2Fwebroot%2Fprofile_components%2Findex.json&_dc=1497984622059&page=1&start=0&limit=100&sort=check_attribute_count&dir=ASC&token=dd1cb290-743e-40e5-9f2e-8c8522246c1a&sel_language=4_4
+Stack Trace:
+#0 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('SELECT `Profile...', Array)
+#2 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(1184): DboSource->fetchAll('SELECT `Profile...', Array)
+#4 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3038): DboSource->read(Object(ProfileComponent), Array)
+#5 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3010): Model->_readDataSource('all', Array)
+#6 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/ProfileComponentsController.php(329): Model->find('all', Array)
+#7 [internal function]: ProfileComponentsController->index()
+#8 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfileComponentsController), Array)
+#9 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ProfileComponentsController), Object(CakeRequest))
+#11 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-08-21 00:18:08 Error: [MissingViewException] View file "DynamicClients/json/edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'DynamicClients/json/edit.ctp',
+)
+Request URL: /cake2/rd_cake/dynamic_clients/edit.json?q=%2Fcake2%2Frd_cake%2Fwebroot%2Fdynamic_clients%2Fedit.json
+Stack Trace:
+#0 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/View/JsonView.php(107): View->_getViewFileName('DynamicClients/...')
+#1 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Controller/Controller.php(963): JsonView->render(NULL, NULL)
+#2 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DynamicClientsController), Object(CakeRequest))
+#4 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-29 13:33:33 Error: [MissingViewException] View file "Aps/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Aps/index.ctp',
+)
+Request URL: /cake2/rd_cake/aps?q=%2Fcake2%2Frd_cake%2Fwebroot%2Faps
+Stack Trace:
+#0 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/View/View.php(470): View->_getViewFileName('Aps/index')
+#1 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApsController), Object(CakeRequest))
+#4 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-10-25 06:41:50 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /cake2/rd_cake/ap_reports/submit_report.json?q=%2Fcake2%2Frd_cake%2Fwebroot%2Fap_reports%2Fsubmit_report.json
+Stack Trace:
+#0 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3667): Model->setSource('aps')
+#5 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(834): Model->getDataSource()
+#6 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/ApReportsController.php(592): Model->__call('findByMac', Array)
+#7 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/ApReportsController.php(21): ApReportsController->_new_report()
+#8 [internal function]: ApReportsController->submit_report()
+#9 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ApReportsController), Array)
+#10 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApReportsController), Object(CakeRequest))
+#12 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2017-10-25 06:41:52 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /cake2/rd_cake/ap_reports/submit_report.json?q=%2Fcake2%2Frd_cake%2Fwebroot%2Fap_reports%2Fsubmit_report.json
+Stack Trace:
+#0 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3667): Model->setSource('aps')
+#5 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(834): Model->getDataSource()
+#6 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/ApReportsController.php(592): Model->__call('findByMac', Array)
+#7 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/ApReportsController.php(21): ApReportsController->_new_report()
+#8 [internal function]: ApReportsController->submit_report()
+#9 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ApReportsController), Array)
+#10 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApReportsController), Object(CakeRequest))
+#12 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2018-01-16 21:50:22 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /cake2/rd_cake/openvpn_servers/auth_client.json?q=%2Fcake2%2Frd_cake%2Fwebroot%2Fopenvpn_servers%2Fauth_client.json
+Stack Trace:
+#0 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3667): Model->setSource('aps')
+#5 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(834): Model->getDataSource()
+#6 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/OpenvpnServersController.php(47): Model->__call('findByMac', Array)
+#7 [internal function]: OpenvpnServersController->auth_client()
+#8 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(OpenvpnServersController), Array)
+#9 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(OpenvpnServersController), Object(CakeRequest))
+#11 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-01-16 21:50:22 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /cake2/rd_cake/openvpn_servers/auth_client.json?q=%2Fcake2%2Frd_cake%2Fwebroot%2Fopenvpn_servers%2Fauth_client.json
+Stack Trace:
+#0 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3667): Model->setSource('aps')
+#5 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(834): Model->getDataSource()
+#6 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/OpenvpnServersController.php(47): Model->__call('findByMac', Array)
+#7 [internal function]: OpenvpnServersController->auth_client()
+#8 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(OpenvpnServersController), Array)
+#9 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(OpenvpnServersController), Object(CakeRequest))
+#11 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-01-24 06:23:02 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /cake2/rd_cake/ap_reports/submit_report.json?q=%2Fcake2%2Frd_cake%2Fwebroot%2Fap_reports%2Fsubmit_report.json
+Stack Trace:
+#0 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3667): Model->setSource('aps')
+#5 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(834): Model->getDataSource()
+#6 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/ApReportsController.php(592): Model->__call('findByMac', Array)
+#7 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/ApReportsController.php(21): ApReportsController->_new_report()
+#8 [internal function]: ApReportsController->submit_report()
+#9 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ApReportsController), Array)
+#10 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApReportsController), Object(CakeRequest))
+#12 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2018-01-24 06:23:09 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /cake2/rd_cake/ap_reports/submit_report.json?q=%2Fcake2%2Frd_cake%2Fwebroot%2Fap_reports%2Fsubmit_report.json
+Stack Trace:
+#0 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3667): Model->setSource('aps')
+#5 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(834): Model->getDataSource()
+#6 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/ApReportsController.php(592): Model->__call('findByMac', Array)
+#7 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/ApReportsController.php(21): ApReportsController->_new_report()
+#8 [internal function]: ApReportsController->submit_report()
+#9 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ApReportsController), Array)
+#10 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApReportsController), Object(CakeRequest))
+#12 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2018-01-24 06:23:27 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /cake2/rd_cake/ap_reports/submit_report.json?q=%2Fcake2%2Frd_cake%2Fwebroot%2Fap_reports%2Fsubmit_report.json
+Stack Trace:
+#0 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3667): Model->setSource('aps')
+#5 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(834): Model->getDataSource()
+#6 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/ApReportsController.php(592): Model->__call('findByMac', Array)
+#7 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/ApReportsController.php(21): ApReportsController->_new_report()
+#8 [internal function]: ApReportsController->submit_report()
+#9 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ApReportsController), Array)
+#10 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApReportsController), Object(CakeRequest))
+#12 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2018-02-09 18:52:44 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ProfileComponent.check_attribute_count' in 'order clause'
+Request URL: /cake2/rd_cake/profile_components/index.json?q=%2Fcake2%2Frd_cake%2Fwebroot%2Fprofile_components%2Findex.json&_dc=1518220364826&page=1&start=0&limit=100&sort=check_attribute_count&dir=ASC&token=dd1cb290-743e-40e5-9f2e-8c8522246c1a&sel_language=4_4
+Stack Trace:
+#0 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('SELECT `Profile...', Array)
+#2 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(1184): DboSource->fetchAll('SELECT `Profile...', Array)
+#4 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3038): DboSource->read(Object(ProfileComponent), Array)
+#5 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3010): Model->_readDataSource('all', Array)
+#6 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/ProfileComponentsController.php(329): Model->find('all', Array)
+#7 [internal function]: ProfileComponentsController->index()
+#8 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfileComponentsController), Array)
+#9 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ProfileComponentsController), Object(CakeRequest))
+#11 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-02-09 18:52:45 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ProfileComponent.check_attribute_count' in 'order clause'
+Request URL: /cake2/rd_cake/profile_components/index.json?q=%2Fcake2%2Frd_cake%2Fwebroot%2Fprofile_components%2Findex.json&_dc=1518220365966&page=1&start=0&limit=100&sort=check_attribute_count&dir=DESC&token=dd1cb290-743e-40e5-9f2e-8c8522246c1a&sel_language=4_4
+Stack Trace:
+#0 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('SELECT `Profile...', Array)
+#2 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(1184): DboSource->fetchAll('SELECT `Profile...', Array)
+#4 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3038): DboSource->read(Object(ProfileComponent), Array)
+#5 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3010): Model->_readDataSource('all', Array)
+#6 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/ProfileComponentsController.php(329): Model->find('all', Array)
+#7 [internal function]: ProfileComponentsController->index()
+#8 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ProfileComponentsController), Array)
+#9 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ProfileComponentsController), Object(CakeRequest))
+#11 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-04-24 07:22:40 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ApProfile.ap_count' in 'order clause'
+Request URL: /cake2/rd_cake/ap_profiles/index.json?q=%2Fcake2%2Frd_cake%2Fwebroot%2Fap_profiles%2Findex.json&_dc=1524568960206&page=1&start=0&limit=100&sort=ap_count&dir=ASC&token=dd1cb290-743e-40e5-9f2e-8c8522246c1a&sel_language=4_4
+Stack Trace:
+#0 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('SELECT `ApProfi...', Array)
+#2 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('SELECT `ApProfi...', Array, Array)
+#3 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(1184): DboSource->fetchAll('SELECT `ApProfi...', Array)
+#4 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3038): DboSource->read(Object(ApProfile), Array)
+#5 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3010): Model->_readDataSource('all', Array)
+#6 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/ApProfilesController.php(40): Model->find('all', Array)
+#7 [internal function]: ApProfilesController->index()
+#8 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ApProfilesController), Array)
+#9 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApProfilesController), Object(CakeRequest))
+#11 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-04-24 07:22:41 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ApProfile.aps_up' in 'order clause'
+Request URL: /cake2/rd_cake/ap_profiles/index.json?q=%2Fcake2%2Frd_cake%2Fwebroot%2Fap_profiles%2Findex.json&_dc=1524568961058&page=1&start=0&limit=100&sort=aps_up&dir=ASC&token=dd1cb290-743e-40e5-9f2e-8c8522246c1a&sel_language=4_4
+Stack Trace:
+#0 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('SELECT `ApProfi...', Array)
+#2 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('SELECT `ApProfi...', Array, Array)
+#3 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Datasource/DboSource.php(1184): DboSource->fetchAll('SELECT `ApProfi...', Array)
+#4 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3038): DboSource->read(Object(ApProfile), Array)
+#5 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Model/Model.php(3010): Model->_readDataSource('all', Array)
+#6 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/Controller/ApProfilesController.php(40): Model->find('all', Array)
+#7 [internal function]: ApProfilesController->index()
+#8 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ApProfilesController), Array)
+#9 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /usr/share/nginx/html/cakephp-2.9.5/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApProfilesController), Object(CakeRequest))
+#11 /usr/share/nginx/html/cakephp-2.9.5/rd_cake/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
